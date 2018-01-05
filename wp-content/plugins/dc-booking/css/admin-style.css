@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+    url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+    url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.booking-plugin{
+    position: relative;
+}
+.circle,
+.greencircle,
+.redcircle{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #999;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+.circle{
+    background: #ccc;
+}
+.greencircle{
+    background: green;
+}
+.redcircle{
+    background: red;
+}
+.ipro-status{
+    right: 0;
+    top: 5px;
+}
+.plugin-header{
+    padding-bottom: 30px;
+}
+.title{
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.plugin-header h1,
+.title h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #797676;
+}
+.plugin-content{
+    background: #fff;
+    padding: 30px 50px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.plugin-content h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.plugin-content input,
+.plugin-content textarea,
+.plugin-content select{
+    background: #f7f7f7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+.plugin-content select{
+    padding: 0 10px;
+    height: 40px;
+}
+.wrap-block{
+    margin: 20px 0;
+}
+.key-field input,
+.key-field select{
+    width: 100%;
+}
+input.button-submit{
+    background: #4aae4f;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.settings-form{
+    padding: 10px 40px;
+}
+/* CREATE SHORTCODE */
+.generated-shr{
+    margin-top: 20px;
+}
+.caption h1{
+    font-size: 30px;
+    margin: 40px 0 30px;
+    padding: 10px 20px;
+    color: #797676;
+    font-weight: 600;
+}
+.generated-shortcodes th{
+    padding: 15px 10px;
+    font-size: 20px;
+    color: #2593d6;
+}
+/* CUSTOM SHORTCODE */
+.description{
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+.flex-box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.flex-box .column{
+    width: 21%;
+    margin-right: 30px;
+}
+.flex-box .fourth{
+    margin-right: 0;
+}
+.column select{
+    display: block;
+    min-width: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.column input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input-name-shortcode{
+    width: 40%;
+    margin-right: 20px;
+}
+.shortcode-name{
+    width: 55%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.shortcode{
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+.btn-delete{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+.booking-field{
+    background: #f7f7f7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}
